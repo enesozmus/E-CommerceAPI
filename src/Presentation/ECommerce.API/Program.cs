@@ -1,4 +1,6 @@
+using ECommerce.Application.Validators;
 using ECommerce.Persistence.DependencyResolvers;
+using FluentValidation.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +9,10 @@ builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
     policy.WithOrigins("http://localhost:4200", "https://localhost:4200").AllowAnyHeader().AllowAnyMethod()
 ));
 
-builder.Services.AddControllers();
+// FluentValidation Library
+builder.Services.AddControllers()
+    .AddFluentValidation(configuration => configuration.RegisterValidatorsFromAssemblyContaining<CreateProductValidator>());
+
 // Persistence Layer
 builder.Services.AddPersistenceServices();
 builder.Services.AddEndpointsApiExplorer();
