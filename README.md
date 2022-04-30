@@ -26,7 +26,6 @@
 > * Onion Architecture Mimarisi
 > * Onion Architecture Altyapısında İnşa
 > * Veritabanı Tasarımı ve Migrate Edilmesi
-> * Generic Repository Design Pattern
-> * Küçük Düzeltmeler ve FindAsync Metodu
+> * Optimal Generic Repository Design Pattern
 > * EF Core Tracking Performans Optimizasyonu
 > * SaveChangeAsync Interceptor
