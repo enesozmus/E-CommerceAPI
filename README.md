@@ -25,7 +25,7 @@
 ### İzlence
 > * Onion Architecture Mimarisi
 > * Onion Architecture Altyapısında İnşa
-> * Veritabanı Tasarımı ve Migrate Edilmesi
+> * Veri tabanı Tasarımı ve Migrate Edilmesi
 > * Optimal Generic Repository Design Pattern
 > * EF Core Tracking Performans Optimizasyonu
 > * SaveChangeAsync Interceptor

@@ -11,15 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{252E189D-8A61-4D75-A8F4-357F0AB19DDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Application", "src\Core\ECommerce.Application\ECommerce.Application.csproj", "{F92EEBBB-EAAC-4913-945A-1F01BDDE194B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Application", "src\Core\ECommerce.Application\ECommerce.Application.csproj", "{F92EEBBB-EAAC-4913-945A-1F01BDDE194B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Domain", "src\Core\ECommerce.Domain\ECommerce.Domain.csproj", "{88874FE2-1C50-4FE2-B69E-9B7B559C2482}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Domain", "src\Core\ECommerce.Domain\ECommerce.Domain.csproj", "{88874FE2-1C50-4FE2-B69E-9B7B559C2482}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Persistence", "src\Infrastructure\ECommerce.Persistence\ECommerce.Persistence.csproj", "{5E2588E2-E75D-4AC8-9E2B-4B406177D0B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Persistence", "src\Infrastructure\ECommerce.Persistence\ECommerce.Persistence.csproj", "{5E2588E2-E75D-4AC8-9E2B-4B406177D0B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Shared", "src\Infrastructure\ECommerce.Shared\ECommerce.Shared.csproj", "{26B59C0B-8AC8-4DFA-A160-84E21F5E2806}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Shared", "src\Infrastructure\ECommerce.Shared\ECommerce.Shared.csproj", "{26B59C0B-8AC8-4DFA-A160-84E21F5E2806}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.API", "src\Presentation\ECommerce.API\ECommerce.API.csproj", "{41844EC1-22B1-4CC0-9001-9C84BAC25F8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.API", "src\Presentation\ECommerce.API\ECommerce.API.csproj", "{41844EC1-22B1-4CC0-9001-9C84BAC25F8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
