@@ -23,8 +23,7 @@
 > * Microsoft.Extensions.DependencyInjection.Abstractions (6.0.0)
 
 ### İzlence
-> * Uygulama Temel İhtiyaçları ve Mimari
-> * Onion Architecture Teorik İnceleme
+> * Onion Architecture Mimarisi
 > * Onion Architecture Altyapısında İnşa
 > * Veritabanı Tasarımı ve Migrate Edilmesi
 > * Generic Repository Design Pattern
