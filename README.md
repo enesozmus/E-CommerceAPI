@@ -13,9 +13,13 @@
 > * Microsoft.EntityFrameworkCore.SqlServer (6.0.4)
 > * Microsoft.EntityFrameworkCore.Tools (6.0.4)
 > * Microsoft.EntityFrameworkCore.Design (6.0.4)
+> * Swashbuckle.AspNetCore (6.2.3)
 > * Microsoft.Extensions.Configuration (6.0.1)
 > * Microsoft.Extensions.Configuration.Json (6.0.0)
-> * Microsoft.Extensions.DependencyInjection.Abstractions (6.0.0)
+> * Microsoft.Extensions.DependencyInjection (6.0.0)
+> * FluentValidation (11.0.0)
+> * FluentValidation.AspNetCore (11.0.0)
+> * FluentValidation.DependencyInjectionExtensions (11.0.0)
 
 
 ### İzlence
@@ -24,4 +28,5 @@
 > * Veri tabanı Tasarımı ve Migrate Edilmesi
 > * Optimal Generic Repository Design Pattern
 > * EF Core Tracking Performans Optimizasyonu
-> * SaveChangeAsync Interceptor
+> * İsteğe Uyarlanmış SaveChangeAsync
+> * FluentValidation Kütüphanesi Entegrasyonu
