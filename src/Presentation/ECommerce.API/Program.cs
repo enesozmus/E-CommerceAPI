@@ -1,5 +1,6 @@
 using ECommerce.Application.Validators;
 using ECommerce.Persistence.DependencyResolvers;
+using ECommerce.Shared.Filters;
 using FluentValidation.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,8 +11,9 @@ builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
 ));
 
 // FluentValidation Library
-builder.Services.AddControllers()
-    .AddFluentValidation(configuration => configuration.RegisterValidatorsFromAssemblyContaining<CreateProductValidator>());
+builder.Services.AddControllers(options => options.Filters.Add<ValidationFilter>())
+    .AddFluentValidation(configuration => configuration.RegisterValidatorsFromAssemblyContaining<CreateProductValidator>())
+    .ConfigureApiBehaviorOptions(options => options.SuppressModelStateInvalidFilter = true);
 
 // Persistence Layer
 builder.Services.AddPersistenceServices();
